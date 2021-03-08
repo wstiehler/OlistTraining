@@ -14,8 +14,14 @@
 			Utiliza-se duas palavras especificas em Python: self ou cls.  (Self significa Eu mesmo
 	
 	Self X cls
-		
 		Self: Sempre que queremos falar com o exemplo
 		Cls: Sempre que queremos falar com a classe
 		
 		Decorador @classmethod deixa explicito que pe um método de classe. 
+		
+	Heranças
+		Heranças são definidos como um reutilizador de códigos. Servem para instanciar valores de um objeto, e atribuir outros atributos a 		ele.
+		
+	Polimorfismo
+		Polimorfismo sobrescreve um metodo de uma classe. 
+		
