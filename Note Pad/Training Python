@@ -1,0 +1,21 @@
+  Programação orientada a objetos #1
+
+	Abstração de processos:
+	
+		Comando sorted, faz a ordenação de uma lista. Faz raid de uma implementação e chama apenas a função ou o que ela faz. 
+	
+	Abstração de dados:
+		
+		Dado abstrato é chamado de tipo. Ex: string, int, float, decimal
+		
+		Classes: Conjunto de objetos que tem a mesma função, interreses e objetivos. 
+		Atributos: São adjetivos referentes a algo. EX: Cor, gênero...
+		Métodos: São abstrações de processos de uma abstração de dados. Ex: Soma, divisão, subtração...
+			Utiliza-se duas palavras especificas em Python: self ou cls.  (Self significa Eu mesmo
+	
+	Self X cls
+		
+		Self: Sempre que queremos falar com o exemplo
+		Cls: Sempre que queremos falar com a classe
+		
+		Decorador @classmethod deixa explicito que pe um método de classe. 
