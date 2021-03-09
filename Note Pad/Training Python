@@ -13,15 +13,25 @@
 		Métodos: São abstrações de processos de uma abstração de dados. Ex: Soma, divisão, subtração...
 			Utiliza-se duas palavras especificas em Python: self ou cls.  (Self significa Eu mesmo
 	
-	Self X cls
+	Self X cls:
 		Self: Sempre que queremos falar com o exemplo
 		Cls: Sempre que queremos falar com a classe
 		
 		Decorador @classmethod deixa explicito que pe um método de classe. 
 		
-	Heranças
-		Heranças são definidos como um reutilizador de códigos. Servem para instanciar valores de um objeto, e atribuir outros atributos a 		ele.
+	Heranças:
+		Heranças são definidos como um reutilizador de códigos. Servem para instanciar valores de um objeto, e atribuir outros atributos a ele.
 		
-	Polimorfismo
+	Polimorfismo:
 		Polimorfismo sobrescreve um metodo de uma classe. 
 		
+	Encapsulamento:
+		Permite ao programador agrupar dados e sub rotinas que operam neles juntos em um unico lugar, e ocultar detalhes irrelevantes dos usuários de abstração.
+		
+	Composição: 
+		É uma maneira de ligar objetos sem heranças, ou seja, se os tipos não são "filhos" essa é a amandeira usada para ligar classes.
+		    
+	Métodos especiais:
+		Dunders _init_ é o inicializador. _new_ é o construtor. 
+			_new_ é para criar uma nova instancia de classes cls. É um metodo estátco, que usa a classe da qual a uma instancia foi solicitada como seu primeiro argumento. 
+			o retorno do _new_ é a instancia do projeto.  
