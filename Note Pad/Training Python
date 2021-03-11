@@ -31,7 +31,15 @@
 	Composição: 
 		É uma maneira de ligar objetos sem heranças, ou seja, se os tipos não são "filhos" essa é a amandeira usada para ligar classes.
 		    
-	Métodos especiais:
+	Durders - Métodos especiais
 		Dunders _init_ é o inicializador. _new_ é o construtor. 
-			_new_ é para criar uma nova instancia de classes cls. É um metodo estátco, que usa a classe da qual a uma instancia foi solicitada como seu primeiro argumento. 
+			_new_ é para criar uma nova instancia de classes cls. É um metodo estático, que usa a classe da qual a uma instancia foi solicitada como seu primeiro argumento. 
 			o retorno do _new_ é a instancia do projeto.  
+			
+			__init__ jamais pode retornar um valor nulo. 
+			
+			__del__ chamado quando a instancia esta prestes a ser destruida. 
+			
+		Sintaxe super, chama o método da superclasse. Ou seja, tem a funfão de chamar o método definido na classe PAI
+
+	
