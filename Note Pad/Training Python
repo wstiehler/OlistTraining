@@ -42,4 +42,7 @@
 			
 		Sintaxe super, chama o método da superclasse. Ou seja, tem a funfão de chamar o método definido na classe PAI
 
-	
+	S0brecarga de Operadores
+		São utilizados para mais de um proposito. 
+			EX: Operador + é usado para especificar adição de inteiros e adição de ponto flutuante. Esse uso multiplo de um operador é chamado de sobrecarga do operador.	
+			Sobrecarga de operadores permite interoperação entre objetos definidos pelo usuário e os operadores. 
