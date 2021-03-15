@@ -20,20 +20,20 @@
 		Decorador @classmethod deixa explicito que pe um método de classe. 
 		
 	Heranças:
-		Heranças são definidos como um reutilizador de códigos. Servem para instanciar valores de um objeto, e atribuir outros atributos a ele.
+		Heranças são definidos como um reutilizador de códigos. Servem para instanciar valores de um objeto, e atribuir outros atributos 			a ele.
 		
 	Polimorfismo:
 		Polimorfismo sobrescreve um metodo de uma classe. 
 		
 	Encapsulamento:
-		Permite ao programador agrupar dados e sub rotinas que operam neles juntos em um unico lugar, e ocultar detalhes irrelevantes dos usuários de abstração.
+		Permite ao programador agrupar dados e sub rotinas que operam neles juntos em um unico lugar, e ocultar detalhes irrelevantes dos 		usuários de abstração.
 		
 	Composição: 
 		É uma maneira de ligar objetos sem heranças, ou seja, se os tipos não são "filhos" essa é a amandeira usada para ligar classes.
 		    
 	Durders - Métodos especiais
 		Dunders _init_ é o inicializador. _new_ é o construtor. 
-			_new_ é para criar uma nova instancia de classes cls. É um metodo estático, que usa a classe da qual a uma instancia foi solicitada como seu primeiro argumento. 
+			_new_ é para criar uma nova instancia de classes cls. É um metodo estático, que usa a classe da qual a uma instancia foi 				solicitada como seu primeiro argumento. 
 			o retorno do _new_ é a instancia do projeto.  
 			
 			__init__ jamais pode retornar um valor nulo. 
@@ -44,5 +44,87 @@
 
 	S0brecarga de Operadores
 		São utilizados para mais de um proposito. 
-			EX: Operador + é usado para especificar adição de inteiros e adição de ponto flutuante. Esse uso multiplo de um operador é chamado de sobrecarga do operador.	
+			EX: Operador + é usado para especificar adição de inteiros e adição de ponto flutuante. Esse uso multiplo de um operador é 			chamado de sobrecarga do operador.	
 			Sobrecarga de operadores permite interoperação entre objetos definidos pelo usuário e os operadores. 
+			
+			Operadores  /  Método	 
+			
+			+  		_add_
+			-		_sub_
+			*		_mul_
+			/		_floordiv_
+			//		_truediv_
+			<		_it_
+			<= 		_le_
+			==		_eq_
+			<<		_ishift_
+			>>		_rshifit_
+			%		_mod_
+			&		_and_
+			|		_or_			
+			
+		Operador Inplace
+			Expressão não tem um resultado, ela modifica o objeto que tem o operado. 
+			Eles nunca devem retornar nada, pois estão modificando o proprio objeto. 
+			
+			peradores  /    Método	 
+			
+			+=		_iadd_
+			-=		_isub_
+			*= 		_imul_
+			/=		_ifloordiv_
+			//=		_itruediv_
+			<<=		_ilshift_
+			>>= 		_irshift_
+			
+	
+	Sockets 
+	
+		* Permite a comunicação entre processos IPC via rede fisica ou virtual. 
+		* Não possui o overhead das camadas superiores de rede e dá um controle superior em relação ao estado das conexões. 
+		* Permite customizar alguns aspectos da conexão. 
+		* Biblioteca que cuida das camadas baixas de conexão 
+		* Possivel criar seu proprio protocolo de aplicação se quiser. 
+		
+		Protocolo TCP							Protocolo UDP
+			
+		Comunicação confiavél 						Comunicação Não-Confiavel
+		Recebimento ordenado de pacotes				Não é garantida a ordem de pacotes
+		Pode apresentar alto deley em conexão ruins			Costuma manter a performance mesmo em conexões ruins
+		Aplicação com aspectos de integridade				Aplicações time-sensitive
+		Pacote "Pesado" 						Pacote "leve"
+		Ciclo de vida conplexo						Ciclo de vida simples 						
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				
+			
+			
+			
+			
+			
+			
+			
+			
