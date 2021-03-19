@@ -18,5 +18,5 @@
         def __init__(self):
             self._forno = Forno()
 
-        def preparar_pizza(self , pizza):
+        def preparar_pizza(self , pizza): 
             self._forno.assar(pizza)

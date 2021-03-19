@@ -45,7 +45,7 @@
 	S0brecarga de Operadores
 		São utilizados para mais de um proposito. 
 			EX: Operador + é usado para especificar adição de inteiros e adição de ponto flutuante. Esse uso multiplo de um operador é 			chamado de sobrecarga do operador.	
-			Sobrecarga de operadores permite interoperação entre objetos definidos pelo usuário e os operadores. 
+			Sobrecarga de operadores permite interoperação entre objetos definidos pelo usuário e os   operadores. 
 			
 			Operadores  /  Método	 
 			
@@ -97,10 +97,13 @@
 		
 		
 		
+	Interfaces
+		* São chamadas de PROTOCOLOS
+		* Tuplas, isto é, uma Estrutura de Dados semelhante as Listas porém imutáve	
 		
-		
-		
-		
+	Filas
+			
+		    
 		
 		
 		
