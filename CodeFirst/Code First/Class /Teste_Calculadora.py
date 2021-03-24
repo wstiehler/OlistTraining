@@ -1,4 +1,4 @@
-from  unitteste import TestCase, main
+from unitteste import TestCase, main
 from decimal import Decimal
 class Calc:
     def soma(self, x, y):
