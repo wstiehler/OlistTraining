@@ -2,14 +2,14 @@ class Fila:
     def __init__(self):
         self.it = []
 
-    def entrar (self , obj):
+    def entrar (self, obj):
         self.it.append(obj)
 
-    def sair (self , pos=0):
+    def sair (self, pos=0):
         return self.it.pop(pos)
 
     def __len__(self):
-        return len(self , it)
+        return len(self, it)
 
     def __contains__(self, obj):
         return obj in self.it

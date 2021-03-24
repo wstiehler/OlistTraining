@@ -1,5 +1,7 @@
-from unitteste import TestCase, main
+from unitteste import TestCase
+
 from decimal import Decimal
+
 class Calc:
     def soma(self, x, y):
         if isinstance(x, Decimal) and isinstance(y, Decimal):
@@ -28,7 +30,7 @@ class Calc:
 
 class Teste_Calculadora(TestCase):
     def setUp(self):
-        self.calc = calc()
+        self.calc = Calc()
 
     def test_soma(self):
         self.calc.clear_cache()
@@ -60,5 +62,3 @@ class Teste_Calculadora(TestCase):
         self.assertEqual(self.calc.div(3, 3), 1)
 
 
-if _name_ == '_main_':
-    main()

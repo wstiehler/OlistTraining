@@ -1,13 +1,13 @@
 class Passaro:
-    def __init__(self , nome):
+    def __init__(self, nome):
         self.nome = nome
 
 class Jogador:
-    def __init__(self , camisa):
+    def __init__(self, camisa):
         self.camisa = camisa
 
 class PicaPau(Passaro):
-    def __init__(self , nome , camisa):
+    def __init__(self, nome, camisa):
         super().__init__(nome)
         self.camisa = camisa
 
