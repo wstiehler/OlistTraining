@@ -2,6 +2,7 @@ from unitteste import TestCase
 
 from decimal import Decimal
 
+
 class Calc:
     def soma(self, x, y):
         if isinstance(x, Decimal) and isinstance(y, Decimal):

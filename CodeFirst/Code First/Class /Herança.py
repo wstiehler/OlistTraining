@@ -5,13 +5,16 @@ class Pizza:
     def mudar_tamanho(cls, pedaços):
         cls.pedaços = pedaços
 
+
     class Mussarela(Pizza):
         ...
 
-    class Calabresa(Pizza):
-        ...
 
-    class MeioAMeio(Mussarela, Calabresa):
-        ...
+class Calabresa(Pizza):
+    ...
+
+
+class MeioAMeio(Mussarela, Calabresa):
+    ...
 
 

@@ -2,9 +2,11 @@ class Passaro:
     def __init__(self, nome):
         self.nome = nome
 
+
 class Jogador:
     def __init__(self, camisa):
         self.camisa = camisa
+
 
 class PicaPau(Passaro):
     def __init__(self, nome, camisa):

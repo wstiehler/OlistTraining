@@ -17,5 +17,6 @@ class Fila:
     def __repr__(self):
         return f'Fila({self.it})'
 
+
 class Supermercado(Fila):
     ...

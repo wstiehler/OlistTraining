@@ -5,6 +5,7 @@ class Pizzaria:
     def pedido(self, pizza):
         self._pizzaolo.preparar_pizza(pizza)
 
+
 class Forno:
     def __init__(self):
         self.pizzas = []
