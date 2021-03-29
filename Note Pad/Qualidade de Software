@@ -1,0 +1,42 @@
+Qualidade de Software
+
+	Metricas de qualidade de código. 
+	
+		Ferramentas: (Estudar)
+			radon.readthedocs.io/en/latest/#
+			https://www.devmedia.com.br/tdd-fundamentos-do-desenvolvimento-orientado-a-testes/28151
+		
+		Debito Tecnico: 
+			Cada vez que deixar uma melhoria/problema para depois, vira um debito tecnico. 
+		
+		Complexidade Ciclomática: 
+			Quanto menor a complexidade, melhor. Fica mais facíl a manteabilidade.
+			
+		Acoplamento: 
+			Grau de dependência em que um artefato (classe, objeto, função, framework) se relaciona com outro.
+			Software fica muito dependente. 
+			Acoplamento fraco ou  baixo é bom, pois depende muito pouco de uma classe ou etc. 
+			Dificulta a criação de teste, pois tem que mocs muito.
+				https://pypi.org/project/mocs/
+			Aumenta o tempo de desenvolviemnto e manutenção de novas funcionalidades. 
+		
+		Coesão:
+			Está ligado ao principio da responsabilidade unica. 
+			Codigo coeso são aqueles onde seus membros estão intimamente ligados e estão ali por um objetivo comum. 
+			Baixa coesão, significa  que o componente possui responsailidades alem das suas.
+			Dificuldade em dar manutenção.
+			Dificulta o reuso de componentes. 
+			
+		Manuteniabilidade de Software:
+			Refere-se á facilidade e segurança em efeturar correções ou novas implementações no software. 
+			Baseia-se na relação entre complexibilidade ciclomatica, linhade codigo, custo de correção VS custo de desenvolvimento. 
+			*PEP8 (Regras de estilo de código) 
+			*PEP257 ()
+			*Baixa complexibilidade ciclomatica
+			*Baixo acoplamento 
+			*Alta coesão
+			*Cobertura de código. 	
+			
+			
+			
+		
