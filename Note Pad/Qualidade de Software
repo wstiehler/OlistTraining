@@ -37,6 +37,83 @@ Qualidade de Software
 			*Alta coesão
 			*Cobertura de código. 	
 			
+		PEP-8:
+			* Link p/ estudar 
+				https://www.python.org/dev/peps/pep-0008/
+				
+			Melhores maneiras, melhores praticas para se escrever. Eficiencia. 
+			
+			Imports:
+				Não se deve importar dois módulos na mesma linha. 
+				Ordem do imports IMPORTA MUITO
+					*Primeiro o futuro
+					*Depois bibliotecas padrões
+					*Biblioteca de terceiros
+					*Suas bibliotecas
+				Não se deve importar usando wildcard
+				 Imports não devem substituir modulos builtin
+				 
+			Tamanho das linhas:
+				Linhas só podem ter até 80 caracteres por linha. 
+				
+			Indentação:
+				Não se utiliza tab. Se utiliza 4 "espaços".
+				Agrupamento: Existem 6 maneiras diferentes de agrupar blocos de códigos. 
+			 
+			 Espaços em braco:
+			 	Evite fazer espaços em braco. Servem apenas para prolongar o código. 
+			 
+			 Variáveis:
+			 	Constantes devem ter letras maiusculas.
+			 	
+		PEP-3107 - Anotações de funções:
+			* Anotações de funções são completamente opcionais. 
+			* As anotações de funções não são mais do que uma forma de associar expressões arbitrárias de Python a várias partes de 				  uma função em tempo de compilação. 
+		
+		PEP-257 - Padrões de comentários:
+			* Tudo que começa, termina com ponto final. 
+				EX: 
+					"""
+					
+					Comentários do módulo. 
+					
+					Bananas de pijamas descendo as escadas
+					Bananas de pijama uma dupla da pesada
+					
+					"""
+			 	
+			 
 			
 			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
