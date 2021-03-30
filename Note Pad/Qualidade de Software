@@ -68,7 +68,8 @@ Qualidade de Software
 			 	
 		PEP-3107 - Anotações de funções:
 			* Anotações de funções são completamente opcionais. 
-			* As anotações de funções não são mais do que uma forma de associar expressões arbitrárias de Python a várias partes de 				  uma função em tempo de compilação. 
+			* As anotações de funções não são mais do que uma forma de associar expressões arbitrárias de Python a várias partes de 		
+			  uma função em tempo de compilação. 
 		
 		PEP-257 - Padrões de comentários:
 			* Tudo que começa, termina com ponto final. 
