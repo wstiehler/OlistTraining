@@ -9,4 +9,5 @@ class num:
         return 'Num: {}'.format(self.numero)
 
     def __add__(self, operador):
-        return self.numero + operador 
+        return self.numero + operador
+    
