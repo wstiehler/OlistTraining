@@ -1,9 +1,8 @@
-def escreva(mensagem):
-    tam = len(mensagem)
-    print('_' * tam)
-    print(f'{mensagem}')
-    print('_' * tam)
+def write(message):
+    tam = len(message) + 4
+    print('-' * tam)
+    print(f'  {message}')
+    print('-' * tam)
 
 
-escreva('Olá mundo')
-escreva('Vamo dale no maximo')
+write('Hello! I am new here')
