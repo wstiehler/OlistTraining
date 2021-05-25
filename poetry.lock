@@ -108,6 +108,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "mysql-python"
+version = "1.2.5"
+description = "Python interface to MySQL"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "packaging"
 version = "20.9"
 description = "Core utilities for Python packages"
@@ -255,7 +263,7 @@ brotli = ["brotlipy (>=0.6.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "c6a2fbd3788512a800d8d257f081f1e8aa7a515c31f3fb23f021a395f725905b"
+content-hash = "2ee094f7074253c9ac3afff0758b23499f136445111667532b9c947d7fe8d041"
 
 [metadata.files]
 asgiref = [
@@ -347,6 +355,10 @@ idna = [
 iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
+]
+mysql-python = [
+    {file = "MySQL-python-1.2.5.win32-py2.7.exe", hash = "sha256:ab22d1322099098730a57fd59d610f60738f95a1cb68dacca2d1c47cb0cbe8ee"},
+    {file = "MySQL-python-1.2.5.zip", hash = "sha256:811040b647e5d5686f84db415efd697e6250008b112b6909ba77ac059e140c74"},
 ]
 packaging = [
     {file = "packaging-20.9-py2.py3-none-any.whl", hash = "sha256:67714da7f7bc052e064859c05c595155bd1ee9f69f76557e21f051443c20947a"},
