@@ -13,11 +13,11 @@ from os import error
 
 def salvar(nome, descricao, valor):
     try:
-        with open('instrumento.csv', 'a') as arquivo:
+        with open('instrumento.csv', 'r') as arquivo:
             arquivo.write(f'{nome};{descricao};{valor}\n')
         return 'Instrumento salvo com sucesso!'
-    except:
-        return 'Instrumento não salvo'
+    except Exception as erro:
+        return f'Instrumento não salvo! \n Erro: {erro}'
 
 try:
     msg = salvar('corda', 'violao', '90')
