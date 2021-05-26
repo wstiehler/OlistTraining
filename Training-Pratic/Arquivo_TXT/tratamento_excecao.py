@@ -15,9 +15,12 @@ def salvar(nome, descricao, valor):
     try:
         with open('instrumento.csv', 'a') as arquivo:
             arquivo.write(f'{nome};{descricao};{valor}\n')
-        return print('Instrumento salvo com sucesso!')
+        return 'Instrumento salvo com sucesso!'
     except:
-        return print('Instrumento não salvo')
+        return 'Instrumento não salvo'
 
-salvar('corda', 'violao', '90')
-   
+try:
+    msg = salvar('corda', 'violao', '90')
+    print(msg)
+except:
+    print('Erro desconhecido :/')
