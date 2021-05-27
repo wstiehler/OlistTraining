@@ -8,13 +8,13 @@ from pprint import pprint
 def listar_instrumentos():
     try:
         lista = []
-        with open('instrumento.csv', 'r') as arquivo:
+        with open('instrumento.csv', 'w') as arquivo:
             for linha in arquivo:
                 linha_tratada = linha.strip()
                 instrumento_lista = linha_tratada.split(';')
                 instrumento = {'nome':instrumento_lista[0], 'descricao':instrumento_lista[1],'valor':instrumento_lista[2]}
                 lista.append(instrumento)
-            return lista
+        return lista
 
     except Exception:
         return 'Você não tem permissão de leitura!'
